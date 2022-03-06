@@ -147,10 +147,3 @@ for i in range(10):
     cluster_df.columns = ["words","TF_IDF"]
     sns.barplot(x="TF_IDF",y="words",data=cluster_df).set_title('Cluster '+str(i+1))
     plt.show()
-    
-
-
-
-
-    
-    
